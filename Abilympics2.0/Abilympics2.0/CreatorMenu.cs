@@ -36,6 +36,7 @@ namespace Abilympics2._0
 
         }
 
+        // переходы по tabPage
         private void Button1_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedTab = tabPage1;
@@ -51,12 +52,14 @@ namespace Abilympics2._0
             tabControl1.SelectedTab = tabPage3;
         }
 
+        // закрытие формы
         private void Button4_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void Button7_Click(object sender, EventArgs e)
+        // переход на форму ChangePassCr
+        private void Button6_Click(object sender, EventArgs e)
         {
             Form cpc = new ChangePassCr();
             Hide();

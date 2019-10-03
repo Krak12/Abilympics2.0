@@ -90,6 +90,12 @@
     <Compile Include="TechnicianMenu.Designer.cs">
       <DependentUpon>TechnicianMenu.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChangePassCr.resx">
+      <DependentUpon>ChangePassCr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassSp.resx">
+      <DependentUpon>ChangePassSp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CreatorMenu.resx">
       <DependentUpon>CreatorMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +114,9 @@
     </Compile>
     <EmbeddedResource Include="SpecialistMenu.resx">
       <DependentUpon>SpecialistMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechnicianMenu.resx">
+      <DependentUpon>TechnicianMenu.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="dbDataSet.xsc">
       <DependentUpon>dbDataSet.xsd</DependentUpon>
