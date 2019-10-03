@@ -47,7 +47,7 @@
             this.pictureBox1.Image = global::Abilympics2._0.Properties.Resources.Снимок;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(437, 579);
+            this.pictureBox1.Size = new System.Drawing.Size(437, 749);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
